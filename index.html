@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Ford</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <script defer src="./js/home.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-wrap">
+            <div class="grid wide">
+                <div class="nav">
+                    <a href="#" class="logo">
+                        <img src="./images/home/logo.png" alt="">
+                    </a>
+
+
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="">Giới thiệu</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./product/product.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discount">Khuyến mãi</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="">Liên hệ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <img id="slider-img" src="./images/home/slider/slider1.jpg" alt="">
+            <div class="slider__next" onclick="next()">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="slider__prev" onclick="prev()">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="grid wide">
+            <section>
+                <div class="product">
+                    <div class="heading">
+                        <h1>SẢN PHẨM NỔI BẬT</h1>
+                    </div>
+                    <div class="product__body">
+                        <div class="row">
+                            <div class="col l-3">
+                                <a href="./productDetail-html/raptor.html" class="product__item">
+                                    <img src="./images/home/product/product1.jpg" alt="">
+                                    <h4>Ford Ranger Raptor</h4>
+                                </a>
+                            </div>
+
+                            <div class="col l-3">
+                                <a href="./productDetail-html/everset.html" class="product__item">
+                                    <img src="./images/home/product/product2.jpg" alt="">
+                                    <h4>Ford Everest</h4>
+                                </a>
+                            </div>
+
+                            <div class="col l-3">
+                                <a href="./productDetail-html/ecosport.html" class="product__item">
+                                    <img src="./images/home/product/product3.jpg" alt="">
+                                    <h4>Ford Ecosport</h4>
+                                </a>
+                            </div>
+
+                            <div class="col l-3">
+                                <a href="./productDetail-html/explorer.html" class="product__item">
+                                    <img src="./images/home/product/product4.jpg" alt="">
+                                    <h4>Ford Explorer</h4>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="./product/product.html" class="product-btn">Xem thêm</a>
+                    </div>
+                </div>
+            </section>
+            <section id="discount">
+                <div class="discount">
+                    <div class="heading">
+                        <h1>KHUYẾN MÃI</h1>
+                    </div>
+
+                    <div class="discount__body">
+                        <div class="row">
+                            <div class="col l-6">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="./images/home/discount/discount1.jpg" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Chương trình “Đặt hẹn hôm nay- Rinh ngay quà tặng</h3>
+                                            <p>Các bạn hãy nhanh chóng đặt lịch hẹn hoặc liên hệ Đại lý gần nhất để biết thêm chi tiết chương trình và có cơ hội nhận những phần quà hấp dẫn từ các Đại lý Ủy quyền của Ford Việt Nam!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-6">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="./images/home/discount/discount2.jpg" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Chương Trình “Ưu Đãi Vàng, Dễ Dàng Tậu Xe”</h3>
+                                            <p>Ford Việt Nam mang đến những lợi ích thiết thực cho các cá nhân và doanh nghiệp trong giai đoạn 22/05 - 30/06/2020 sẽ được hưởng mức ưu đãi bao gồm 6 tháng đầu tiên miễn lãi suất và miễn phí 3 năm cứu hộ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col l-6">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="./images/home/discount/discount2.jpg" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Chương Trình “Ưu Đãi Vàng, Dễ Dàng Tậu Xe”</h3>
+                                            <p>Ford Việt Nam mang đến những lợi ích thiết thực cho các cá nhân và doanh nghiệp trong giai đoạn 22/05 - 30/06/2020 sẽ được hưởng mức ưu đãi bao gồm 6 tháng đầu tiên miễn lãi suất và miễn phí 3 năm cứu hộ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-6">
+                                <div class="discount__item-wrap">
+                                    <div class="discount__item">
+                                        <div class="discount__item-img">
+                                            <img src="./images/home/discount/discount1.jpg" alt="">
+                                        </div>
+
+                                        <div class="discount__item-body">
+                                            <h3>Chương trình “Đặt hẹn hôm nay- Rinh ngay quà tặng</h3>
+                                            <p>Các bạn hãy nhanh chóng đặt lịch hẹn hoặc liên hệ Đại lý gần nhất để biết thêm chi tiết chương trình và có cơ hội nhận những phần quà hấp dẫn từ các Đại lý Ủy quyền của Ford Việt Nam!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="about-us">
+                    <div class="heading">
+                        <h1>TẠI SAO NÊN MUA XE VỚI WESTERN FORD?</h1>
+                    </div>
+
+                    <div class="about-us__body">
+                        <img src="./images/home/westenFord.jpg" alt="">
+                        <div class="about-us__text">
+                            <div class="row">
+                                <div class="col l-3">
+                                    <h3>GIÁ TỐT – GIAO NHANH</h3>
+                                    <p>Là một đại lý mới, Western Ford nhận được rất nhiều ưu đãi đặc biệt về GIÁ từ nhà máy dành cho anh chị.</p>
+                                </div>
+
+                                <div class="col l-3">
+                                    <h3>KHUYẾN MÃI HOT</h3>
+                                    <p>Khi mua xe tại Western Ford, anh chị sẽ nhận được rất nhiều QUÀ TẶNG HẤP DẪN và KHUYẾN MÃI ĐẶC BIỆT.</p>
+                                </div>
+
+                                <div class="col l-3">
+                                    <h3>MUA XE TRẢ GÓP</h3>
+                                    <p>Anh/Chị sẽ được hỗ trợ mua xe trả góp với lãi suất cực kỳ ưu đãi từ các ngân hàng hàng đầu Việt Nam.</p>
+                                </div>
+
+                                <div class="col l-3">
+                                    <h3>DỊCH VỤ CHẤT LƯỢNG</h3>
+                                    <p>Bảo hành, bảo dưỡng, cứu hộ 24/7… Western Ford sẽ chăm sóc cho chiếc xe Ford của anh chị bất cứ lúc nào.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="grid wide">
+            <div class="footer__body">
+                <h2>Western Ford An Giang</h2>
+                <hr>
+                <p>
+                    <b>Hotline:</b> 0931 059 007
+                </p>
+                <p>
+                    <b>Adress:</b> 26/2A Trần Hưng Đạo, Mỹ Long, Thành phố Long Xuyên, An Giang
+                </p>
+                <p>
+                    <b>Email:</b> quocb1910131@student.ctu.edu.vn
+                </p>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="contact_wrap">
+        <a href="https://www.facebook.com/Ford-An-Giang-0931059007-100858188422175" target="_blank" class="fb">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="phone">
+            <i class="fas fa-fw fa-phone"></i>
+        </a>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

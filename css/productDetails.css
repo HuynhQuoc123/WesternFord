@@ -1,0 +1,162 @@
+main {
+    margin-top: 65px;
+    min-height: 1000px;
+    background-color: rgba(230, 237, 243, 0.3);
+}
+
+.content {
+    overflow: hidden;
+    padding-top: 48px;
+}
+
+.overview {
+    min-height: 500px;
+}
+
+.heading {
+    margin-bottom: 48px;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--primary-color);
+}
+
+.drs span {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.drs .price {
+    font-size: 2.8rem;
+    padding: 16px 0;
+}
+
+.drs .price span {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.price-table {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.price-table,
+th,
+td {
+    border: 1px solid #000;
+    font-size: 1.4rem;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.price-table th {
+    font-size: 1.6rem;
+}
+
+.drs__body {
+    padding-top: 16px;
+    list-style: none;
+}
+
+.drs__body li {
+    font-size: 1.4rem;
+    padding: 4px 0;
+}
+
+.image-wrap {
+    min-height: 450px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    flex: 9;
+}
+
+.image img {
+    width: 100%;
+}
+
+.sub-image {
+    display: flex;
+    padding: 16px 0;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sub-image__item {
+    cursor: pointer;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.sub-image__item:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.sub-image__item img {
+    width: 100%;
+}
+
+
+/*_______________________________*/
+
+.exterior {}
+
+.content__heading {
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+.content__heading hr {
+    margin: 12px 0 24px 0;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.content__body {}
+
+.item {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px rgb(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    color: var(--text-color);
+}
+
+.item-img img {
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.item-text {
+    padding: 0 12px;
+}
+
+.item-text h4 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin-top: 6px;
+    color: var(--text-color);
+}
+
+.item-text p {
+    margin-top: 4px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    height: 13rem;
+    color: var(--text-color);
+}
+
+
+/*_______________________________*/
+
+.design {
+    padding-bottom: 64px;
+}
