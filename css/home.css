@@ -79,13 +79,18 @@ section {
     color: #000;
 }
 
+.product__item h4:hover {
+    font-size: 1.6rem;
+    text-decoration-line: underline;
+}
+
 .product__item img {
     width: 100%;
     transition: transform linear 0.2s;
 }
 
 .product__item:hover img {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .product-btn {
