@@ -25,4 +25,4 @@ function prev() {
     slider.src = images[num];
 }
 
-setInterval(next, 4000); // chuyen slider sau 4s
+setInterval(next, 3000); // chuyen slider sau 4s
