@@ -75,7 +75,7 @@ section {
 
 .product__item {
     font-size: 1.6rem;
-    text-decoration-line: underline;
+    
 }
 
 .product__item h4 {
@@ -90,7 +90,7 @@ section {
 }
 
 .product__item:hover img {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .product-btn {
